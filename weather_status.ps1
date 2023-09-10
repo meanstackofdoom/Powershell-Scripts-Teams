@@ -1,3 +1,4 @@
+
 # Weather API URL
 $weatherApiUrl = "insert weatherapi.com api - no alerts yes"
 
