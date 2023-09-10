@@ -28,7 +28,7 @@ Script written to update the weather from weatherapi.com to a dedicated teams ch
 
  Weather Update for Canberra, Australia
 
- Location : Canberra, ACT, Australia
+ Location : Canberra, ACT, Australia<Br>
  Weather Condition
  Local Time: 2023-09-10 16:09
  Temperature (Feels Like): 17.0°C
