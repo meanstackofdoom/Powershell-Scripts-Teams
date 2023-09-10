@@ -4,7 +4,7 @@
 
 Download here: https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/ping_status.ps1
 
-<p>Check out the Device Teamns Ping script on GitHub:</p>
+<p>Check out the Device Teams Ping script on GitHub:</p>
 
 <a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/Ping_status.ps1">Teams Ping Status</a>
 
