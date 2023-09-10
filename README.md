@@ -1,7 +1,10 @@
 # Powershell
 Powershell Scripts
 
+
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Script written in powershell to post to teams using the teams webhook. 
 
 Ping Server Status Report
 
