@@ -2,6 +2,13 @@
 
 A collection of scripts which are currently active and working that I have designed over the years,  currently uploading, feel free to use.
 
+
+<a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/README.md" target="_blank">Powershell Read me</a><br>
+<a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/SECURITY.md" target="_blank">Powershell Security</a><Br>
+<a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/CODE_OF_CONDUCT.md" target="_blank">Powershell Scripts Code Of Conduct</a><br>
+<a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/CONTRIBUTING_TO_Powerrshell-Scripts.md" target="_blank">Contribution to Powershell Scripts Repository</a><Br>
+
+
 ---
 
 ## Ping_status.ps1
