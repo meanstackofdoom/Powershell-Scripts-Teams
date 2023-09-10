@@ -18,4 +18,4 @@ Device: SERVER4 | IP: 192.168.1.4 | Status: Online | Response Time: 1 ms | Packe
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-more script coming soon.
+more scripts coming soon.
