@@ -3,12 +3,6 @@ Powershell Scripts
 
 This is what the teams message will look like 
 
-@{ Name = "SERVER1"; Address = "192.168.1.1"; Site = "Office1" },
-@{ Name = "SERVER2"; Address = "192.168.1.2"; Site = "Office1" },
-@{ Name = "SERVER3"; Address = "192.168.1.3"; Site = "Office2" },
-@{ Name = "SERVER4"; Address = "192.168.1.4"; Site = "Office2" },
-
-
 Ping Server Status Report
 
 
