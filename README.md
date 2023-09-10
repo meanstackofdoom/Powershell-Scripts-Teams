@@ -2,6 +2,12 @@
 
 ## Ping_status.ps1
 
+Download here: https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/ping_status.ps1
+
+<p>Check out the Device Teamns Ping script on GitHub:</p>
+
+<a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/Ping_status.ps1">Teams Ping Status</a>
+
 Script written in PowerShell to post to Teams using the Teams webhook.
 
 ### Ping Server Status Report
@@ -19,6 +25,10 @@ Date: 2023-09-10 15:36:55
 ---
 
 ## weather_status.ps1
+
+<p>Check out the Teams Weather script on GitHub:</p>
+
+<a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/weather_status.ps1">Teams Weather Status</a>
 
 Script written to update the weather from weatherapi.com to a dedicated Teams channel.
 
