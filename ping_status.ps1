@@ -1,3 +1,43 @@
+<#
+Script Name: Teams Ping Status Script
+Description: This PowerShell script periodically pings a list of servers, reports their status, and posts updates to a Teams channel via a webhook. It runs in an infinite loop, with configurable ping intervals.
+Author: Matthew Wicks
+Date: 10/09/2023
+
+# Usage Instructions:
+
+1. Configure the $pingWebhookUrl variable with your Teams webhook URL.
+2. Customize the list of servers and their details in the $ipAddresses array.
+3. Adjust the $pingIntervalSeconds and $batchSize variables to control the script's behavior.
+4. Save this script and run it to start monitoring and reporting server status.
+
+Note: This script uses Test-Connection to ping servers and posts HTML-formatted updates to Teams.
+
+# Configuration Variables:
+
+$pingWebhookUrl - Teams webhook URL for posting updates.
+
+$ipAddresses - An array containing server details, including Name, Address, and Site.
+
+$pingIntervalSeconds - The interval (in seconds) at which the script checks server status.
+
+$batchSize - The number of servers to ping in each batch.
+
+$offlineStatus - A hashtable to track offline status and calculate downtime.
+
+$logFilePath - Path to the log file for recording server status updates.
+
+# Output:
+
+The script periodically sends server status updates to the specified Teams channel using a webhook.
+Server status information is also logged to the specified log file.
+
+# Important:
+
+Make sure to secure and protect sensitive information, such as webhook URLs.
+
+#>
+
 $pingWebhookUrl = "YOUR TEAMS WEBHOOK"
 
 $ipAddresses = @(

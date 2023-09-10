@@ -1,9 +1,50 @@
+<#
+Script Name: Teams Weather Update Script
+Description: This PowerShell script fetches weather and astronomy data from weatherapi.com and posts updates to a Teams channel via a webhook. It runs in an infinite loop, updating the weather every hour.
+Author: Matthew Wicks
+Date: 10/09/2023
 
-#Script Name: Teams Weather Update Script
-#Description: This PowerShell script fetches weather and astronomy data from weatherapi.com and posts updates to a Teams channel via a webhook. It runs in an infinite loop, updating the weather every hour.
-#Author: Matthew Wicks
-#Date: 10/09/2023
+# Usage Instructions:
+1. Configure the following variables:
+   - $weatherApiUrl: The URL of the weather API (insert your weatherapi.com API here).
+   - $astronomyApiUrl: The URL of the astronomy API (insert your weatherapi.com API here).
+   - $teamsWebhookUrl: The Teams webhook URL (insert your Teams webhook URL here).
 
+2. Save this script and run it to start fetching and posting weather updates to Teams.
+
+# Configuration Variables:
+
+$weatherApiUrl - Weather API URL for fetching weather data.
+
+$astronomyApiUrl - Astronomy API URL for fetching astronomy data.
+
+$teamsWebhookUrl - Teams webhook URL for posting updates.
+
+# Output:
+
+The script periodically sends weather updates, including current weather conditions, astronomy data, and a 3-day forecast, to the specified Teams channel using a webhook.
+Updates are posted in HTML format.
+
+# Important:
+
+Make sure to secure and protect sensitive information, such as API keys and webhook URLs.
+
+# Script Variables:
+
+$weatherApiUrl - "insert weatherapi.com api - no alerts yes"
+$astronomyApiUrl - "insert weatherapi.com api - no alerts yes"
+$teamsWebhookUrl - "insert teams webhook"
+
+# Loop:
+
+The script runs in an infinite loop with a one-hour interval between updates.
+
+# Dependencies:
+
+The script uses Invoke-RestMethod to fetch data from the weather and astronomy APIs.
+It also relies on a valid Teams webhook URL for posting updates.
+
+#>
 
 # Weather API URL
 $weatherApiUrl = "insert weatherapi.com api - no alerts yes"
