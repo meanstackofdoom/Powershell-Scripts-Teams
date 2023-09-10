@@ -4,7 +4,7 @@ $ipAddresses = @(
     @{ Name = "SERVER1"; Address = "192.168.1.1"; Site = "OFFICE1" },
     @{ Name = "SERVER1"; Address = "192.168.1.2"; Site = "OFFICE1" },
     @{ Name = "SERVER1"; Address = "192.168.1.3"; Site = "OFFICE2" },
-    @{ Name = "SERVER1"; Address = "192.168.1.4"; Site = "OFFICE2" },
+    @{ Name = "SERVER1"; Address = "192.168.1.4"; Site = "OFFICE2" }
    )
 
 $pingIntervalSeconds = 600
