@@ -1,6 +1,6 @@
 
 #Script Name: Teams Weather Update Script
-#Description: This PowerShell script fetches weather and astronomy data from weatherapi.com and posts updates to a Teams channel via a webhook. It runs in an infinite loop, #updating the weather every hour.
+#Description: This PowerShell script fetches weather and astronomy data from weatherapi.com and posts updates to a Teams channel via a webhook. It runs in an infinite loop, updating the weather every hour.
 #Author: Matthew Wicks
 #Date: 10/09/2023
 
