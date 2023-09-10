@@ -1,10 +1,10 @@
 # Powershell
 Powershell Scripts
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 This is what the teams message will look like.
 
 Ping Server Status Report
-
 
 Date: 2023-09-10 15:36:55
 
@@ -16,3 +16,6 @@ Office2
 Device: SERVER3 | IP: 192.168.1.3 | Status: Online | Response Time: 1 ms | Packet Loss: 0%
 Device: SERVER4 | IP: 192.168.1.4 | Status: Online | Response Time: 1 ms | Packet Loss: 0%
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+more script coming soon.
