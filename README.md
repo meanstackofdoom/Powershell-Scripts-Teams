@@ -1,7 +1,7 @@
 # Powershell
 Powershell Scripts
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Ping Server Status Report
 
@@ -15,6 +15,6 @@ Office2
 Device: SERVER3 | IP: 192.168.1.3 | Status: Online | Response Time: 1 ms | Packet Loss: 0%
 Device: SERVER4 | IP: 192.168.1.4 | Status: Online | Response Time: 1 ms | Packet Loss: 0%
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 more scripts coming soon.
