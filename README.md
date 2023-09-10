@@ -1,8 +1,10 @@
 # PowerShell Scripts
 
-## Ping_status.ps1
+A collection of scripts which are currently active and working that I have designed over the years,  currently uploading, feel free to use.
 
-Download here: https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/ping_status.ps1
+---
+
+## Ping_status.ps1
 
 <p>Check out the Device Teams Ping script on GitHub:</p>
 
