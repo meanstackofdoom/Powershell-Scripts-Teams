@@ -1,7 +1,7 @@
 # Powershell
 Powershell Scripts
 
-This is what the teams message will look like 
+This is what the teams message will look like.
 
 Ping Server Status Report
 
