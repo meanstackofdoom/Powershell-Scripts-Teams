@@ -15,7 +15,7 @@ A collection of scripts which are currently active and working that I have desig
 
 <p>Check out the Device Teams Ping script on GitHub:</p>
 
-<a href="https://github.com/meanstackofdoom/Powershell-Scripts/blob/main/Ping_status.ps1">Teams Ping Status</a>
+<a href="https://github.com/meanstackofdoom/Powershell-Scripts-Teams/blob/main/ping_status.ps1">Ping Status Script</a>
 
 Script written in PowerShell to post to Teams using the Teams webhook.
 
