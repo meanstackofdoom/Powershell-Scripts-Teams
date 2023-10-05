@@ -72,35 +72,20 @@ Script written to update the weather from weatherapi.com to a dedicated Teams ch
 
 <a href="https://github.com/meanstackofdoom/Powershell-Scripts-Teams/blob/main/intune_check_enrolled.ps1">Device Enrollment</a>
 
-Script written to update the devices within intune to teams to monitor newly attached devices to tenant.
-
 This script is designed to monitor Intune-managed devices and send notifications to a Microsoft Teams channel when new devices are enrolled within the last 6 hours. It continues to run indefinitely
 
-Module Check:<Br>
-It first checks if the "Microsoft.Graph.Intune" PowerShell module is installed. If not, it displays a message and exits.
-<Br><Br>
-Microsoft Graph Connection:<Br>
-It checks if a connection to Microsoft Graph has been established. If not, it attempts to establish a connection.
-<Br><Br>
-Update Microsoft Graph Environment:<Br>
-It updates the Microsoft Graph environment schema to the beta version.
-<Br><Br>
-Time Calculation:<Br>
-It calculates the current time and time X minutes ago (where X is set to 360 minutes or 6 hours) in a specific format.
-<Br><Br>
-Device Query:<Br>
-It queries Intune managed devices where the "enrolledDateTime" (the date and time the device was enrolled) is greater than or equal to the calculated time X minutes ago. It then filters out devices with the "managementAgent" value equal to "eas."
-<Br><Br>
-Device Count Check:<Br>
-It checks if there are any devices that meet the criteria from the previous step. If there are such devices, it creates a message containing details of these devices.
-<Br><Br>
-Teams Webhook Integration:<Br>
-It sends this message to a Microsoft Teams channel using a webhook URL. The URL is provided in the script.
-<Br><Br>
-No Devices Found:<Br>
-If no devices meet the criteria, it sends a message indicating that no devices have been found.
-<Br><Br>
-Continuous Loop:<Br>
-It then enters a continuous loop with a specified interval (6 hours). In this loop, it repeatedly prints messages about when the next update check will occur, waits for the specified interval, and then runs an "Intune check" function (which is not defined in the provided script).
+The script performs the following tasks:<br><br>
+1. Checks for the presence of the "Microsoft.Graph.Intune" PowerShell module and installs it if missing.<br>
+2. Establishes a connection to Microsoft Graph.<br>
+3. Updates the Microsoft Graph environment schema to the beta version.<br>
+4. Calculates a time threshold to determine if any devices were enrolled within a specified time frame (default is 6 hours).<br>
+5. Queries Intune-managed devices that meet the enrollment criteria.<br>
+6. Sends a message to a Microsoft Teams channel with details of the enrolled devices, if any.<br>
+7. Repeats the monitoring process at regular intervals.<br>
+
+.NOTES<br><br>
+- You should replace the webhook URLs with your actual Microsoft Teams webhook URLs.<br>
+- Customize the script as needed for your environment.<br>
+- Ensure that the "Run-IntuneCheck" function, which is referenced but not defined in this script, is defined elsewhere in your environment.<br>
 
 ---
