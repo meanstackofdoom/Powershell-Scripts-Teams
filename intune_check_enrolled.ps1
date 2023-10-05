@@ -1,3 +1,31 @@
+<#
+.SYNOPSIS
+This PowerShell script monitors Microsoft Intune-managed devices and reports newly enrolled devices or devices that haven't synced in a specified time frame to a Microsoft Teams channel using a webhook.
+
+.DESCRIPTION
+The script performs the following tasks:
+1. Checks for the presence of the "Microsoft.Graph.Intune" PowerShell module and installs it if missing.
+2. Establishes a connection to Microsoft Graph.
+3. Updates the Microsoft Graph environment schema to the beta version.
+4. Calculates a time threshold to determine if any devices were enrolled within a specified time frame (default is 6 hours).
+5. Queries Intune-managed devices that meet the enrollment criteria.
+6. Sends a message to a Microsoft Teams channel with details of the enrolled devices, if any.
+7. Repeats the monitoring process at regular intervals.
+
+.NOTES
+- You should replace the webhook URLs with your actual Microsoft Teams webhook URLs.
+- Customize the script as needed for your environment.
+- Ensure that the "Run-IntuneCheck" function, which is referenced but not defined in this script, is defined elsewhere in your environment.
+
+.AUTHOR
+Matthew Wicks
+
+.COPYRIGHT
+Copyright (c) Your Organization. All rights reserved. Licensed under the MIT license.
+See LICENSE in the project root for license information.
+
+#>
+
 $IntuneModule = Get-Module -Name "Microsoft.Graph.Intune" -ListAvailable
 
 if (!$IntuneModule) {
