@@ -68,7 +68,7 @@ Script written to update the weather from weatherapi.com to a dedicated Teams ch
 
 ## check_enrolment.ps1
 
-<p>Check out the Teams Weather script on GitHub:</p>
+<p>Check out the Teams enrolled intune script on GitHub:</p>
 
 <a href="https://github.com/meanstackofdoom/Powershell-Scripts-Teams/blob/main/intune_check_enrolled.ps1">Device Enrollment</a>
 
