@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-This PowerShell script monitors Microsoft Intune-managed devices and reports newly enrolled devices or devices that haven't synced in a specified time frame to a Microsoft Teams channel using a webhook.
+This PowerShell script monitors Microsoft Intune-managed devices and reports newly enrolled devices.
 
 .DESCRIPTION
 The script performs the following tasks:
