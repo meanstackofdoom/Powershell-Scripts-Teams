@@ -72,9 +72,9 @@ Script written to update the weather from weatherapi.com to a dedicated Teams ch
 
 <a href="https://github.com/meanstackofdoom/Powershell-Scripts-Teams/blob/main/intune_check_enrolled.ps1">Device Enrollment</a>
 
-This script is designed to monitor Intune-managed devices and send notifications to a Microsoft Teams channel when new devices are enrolled within the last 6 hours. It continues to run indefinitely
+This script is designed to monitor Intune-managed devices and send notifications to a Microsoft Teams channel when new devices are enrolled within the last 6 hours. It continues to run indefinitely<br><br>
 
-The script performs the following tasks:<br><br>
+The script performs the following tasks:<br>
 1. Checks for the presence of the "Microsoft.Graph.Intune" PowerShell module and installs it if missing.<br>
 2. Establishes a connection to Microsoft Graph.<br>
 3. Updates the Microsoft Graph environment schema to the beta version.<br>
@@ -83,7 +83,8 @@ The script performs the following tasks:<br><br>
 6. Sends a message to a Microsoft Teams channel with details of the enrolled devices, if any.<br>
 7. Repeats the monitoring process at regular intervals.<br>
 
-.NOTES<br><br>
+
+.NOTES<br>
 - You should replace the webhook URLs with your actual Microsoft Teams webhook URLs.<br>
 - Customize the script as needed for your environment.<br>
 - Ensure that the "Run-IntuneCheck" function, which is referenced but not defined in this script, is defined elsewhere in your environment.<br>
