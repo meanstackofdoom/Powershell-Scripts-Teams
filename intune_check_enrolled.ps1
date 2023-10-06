@@ -118,7 +118,7 @@ do {
         Invoke-RestMethod -Uri $WebhookUrl -Method Post -Headers $Headers -Body $Body
     } else {
         # If no devices enrolled in the past $minutes minutes, create a message
-        $Message = "There have been no devices enrolled or checked into AVS in the last $minutes minutes found,  when I find a device I will print out details here."
+        $Message = "There have been no devices enrolled or checked into business in the last $minutes minutes found,  when I find a device I will print out details here."
 
         # Replace this with your actual Teams webhook URL
         $WebhookUrl = ""
