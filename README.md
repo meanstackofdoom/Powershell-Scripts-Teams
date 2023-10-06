@@ -90,3 +90,14 @@ The script performs the following tasks:<br>
 - Ensure that the "Run-IntuneCheck" function, which is referenced but not defined in this script, is defined elsewhere in your environment.<br>
 
 ---
+
+## check_sync.ps1
+
+<p>Check out the Teams enrolled intune script on GitHub:</p>
+
+<a href="[https://github.com/meanstackofdoom/Powershell-Scripts-Teams/blob/main/intune_check_sync.ps1">Device Sync</a>
+
+This PowerShell script periodically checks the status of Microsoft Intune-managed devices to identify those that haven't synced in a specified timeframe. It then sends a detailed report to a Microsoft Teams channel using a webhook, allowing for proactive device management and monitoring
+
+---
+
